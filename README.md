@@ -45,23 +45,41 @@ The **AX88796C** is a low‑power SPI/Non-PCI Fast Ethernet controller designed 
 ---
 ## Driver Parameters
 
-### [comp]
-- **1** → Enable SPI compression mode  
-- **0** → Disable (default)  
+```c
+[comp]
+  setting:
+	1 -> Enable SPI compression mode
+	0 -> Disable SPI compression mode
+  default:
+	0
 
-### [ps_level]
-- **0** → Disable power saving (default)  
-- **1** → Enable level 1  
-- **2** → Enable level 2  
+[ps_level]
+  setting:
+	0 -> Disable power saving
+	1 -> Enable power saving level 1
+	2 -> Enable power saving level 2
+  default:
+	0
 
-### [msg_enable]
-Bitmask options for debug messages:  
-- `0x0002` → Probe messages  
-- `0x0004` → Media change messages  
-- `0x0040` → RX error messages  
-- `0x0080` → TX error messages  
-- `0x4000` → Wake‑On‑LAN messages  
-- *(others available for debugging)*  
-
-**Default:**  
-`NETIF_MSG_PROBE | NETIF_MSG_LINK | NETIF_MSG_RX_ERR | NETIF_MSG_TX_ERR | NETIF_MSG_WOL`  
+[msg_enable]
+  setting:
+	NETIF_MSG_DRV		(0x0001)	(Not used)
+	NETIF_MSG_PROBE		(0x0002)	(Probe messages)
+	NETIF_MSG_LINK		(0x0004)	(Media change messages)
+	NETIF_MSG_TIMER		(0x0008)	(Watchdog messages)
+	NETIF_MSG_IFDOWN	(0x0010)	(Not used)
+	NETIF_MSG_IFUP		(0x0020)	(Not used)
+	NETIF_MSG_RX_ERR	(0x0040)	(RX error messages)
+	NETIF_MSG_TX_ERR	(0x0080)	(TX error messages)
+	NETIF_MSG_TX_QUEUED	(0x0100)	(TX queue messages)
+	NETIF_MSG_INTR		(0x0200)	(Interrupt messages)
+	NETIF_MSG_TX_DONE	(0x0400)	(Not used)
+	NETIF_MSG_RX_STATUS	(0x0800)	(RX indication messages)
+	NETIF_MSG_PKTDATA	(0x1000)	(TX/RX packet data)
+	NETIF_MSG_HW		(0x2000)	(MAC/PHY register dump messages)
+	NETIF_MSG_WOL		(0x4000)	(Wake-On-Lan messages)
+  default:
+	NETIF_MSG_PROBE | NETIF_MSG_LINK | \
+	NETIF_MSG_RX_ERR | NETIF_MSG_TX_ERR | \
+	NETIF_MSG_WOL
+```
