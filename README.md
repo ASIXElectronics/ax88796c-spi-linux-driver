@@ -6,7 +6,7 @@ Official ASIX AX88796C SPI Fast Ethernet Linux driver source. (Driver module nam
 ## ASIX SPI/Non-PCI Fast Ethernet ICs 
 - [AX88796C SPI/Non-PCI Fast Ethernet Chip](https://www.asix.com.tw/en/product/EmbeddedEthernet/1-PortEthernet/AX88796C)
 
-The **AX88796C** is a low‑power 10/100M Fast Ethernet controller designed for embedded and industrial networking. It supports multiple host interfaces, including **SPI, Non‑PCI, SRAM‑like, and local bus**, with variable I/O voltages. The local bus allows 8/16‑bit SRAM‑like or multiplexed connections, enabling direct MCU integration without extra logic. For CPUs with SPI, the AX88796C also offers an optional SPI slave interface to simplify hardware design.
+The **AX88796C** is a low‑power SPI/Non-PCI Fast Ethernet controller designed for embedded and industrial networking. It supports multiple host interfaces, including **SPI and localbus/SRAM‑like**. The local bus allows 8/16‑bit SRAM‑like or multiplexed connections, enabling direct MCU integration without extra logic. For CPUs with SPI, the AX88796C also offers an optional SPI slave interface to simplify hardware design.
 
 ---
 ## File Description
