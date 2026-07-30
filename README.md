@@ -1,14 +1,17 @@
-================================================================================
-Driver Overview
-================================================================================
-AX88796C 3-in-1 SPI Fast Ethernet Linux Driver
+# ASIX AX88796C SPI Fast Ethernet Linux driver (`ax88796c-spi.o`)
+
+Official ASIX AX88796C SPI Fast Ethernet Linux driver source. (Driver module name: `ax88796c-spi.o`)
+
+---
+## ASIX SPI/Non-PCI Fast Ethernet ICs 
+- [AX88796C SPI/Non-PCI Fast Ethernet Chip](https://www.asix.com.tw/en/product/EmbeddedEthernet/1-PortEthernet/AX88796C)
 
 The AX88796C Ethernet controller is a high performance and highly integrated
 local CPU bus Ethernet controller with embedded 10/100Mbps PHY/Transceiver
 and supports SPI interface for any embedded systems. 
 
 If you look for more details, 
-please visit ASIX's web site (http://www.asix.com.tw).
+please visit [ASIX's company website](https://www.asix.com.tw).
 
 ================================================================================
 File Description
