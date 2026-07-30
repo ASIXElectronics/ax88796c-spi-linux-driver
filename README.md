@@ -40,7 +40,7 @@ The **AX88796C** is a low‑power SPI/Non-PCI Fast Ethernet controller designed 
    ```bash
    make
    ```
-4. If successful, `ax88796c-spi.ko` will be generated in the current directory.  
+4. If successful, `ax88796c-spi.o` will be generated in the current directory.  
 
 ---
 ## Driver Parameters
