@@ -13,9 +13,9 @@ and supports SPI interface for any embedded systems.
 If you look for more details, 
 please visit [ASIX's company website](https://www.asix.com.tw).
 
-================================================================================
-File Description
-================================================================================
+---
+## File Description
+
 README               This file
 ax88796c_main.c      AX88796C Linux driver main functions
 ax88796c_main.h      AX88796C Linux driver header file
@@ -27,9 +27,9 @@ Makefile             AX88796C driver make file
 ax88796c_spi.log     Log file of debug messages
 COPYING	GNU GENERAL PUBLIC LICENSE
 
-================================================================================
-COMPILING DRIVER
-================================================================================
+---
+## COMPILING DRIVER
+
 Prepare: 
 
 	AX88796C SPI Linux Driver Source.
@@ -50,9 +50,9 @@ Getting Start:
 	4.If the compilation is well, the ax88796c-spi.ko will be created under
           the current directory.
 
-===============================================================================
-DRIVER PARAMETERS
-===============================================================================
+---
+## DRIVER PARAMETERS
+
 [comp]
   setting:
 	1 -> Enable SPI compression mode
