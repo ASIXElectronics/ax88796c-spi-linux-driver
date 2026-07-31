@@ -1,6 +1,6 @@
 # ASIX AX88796C SPI Fast Ethernet Linux driver (`ax88796c-spi.o`)
 
-Official ASIX AX88796C SPI Fast Ethernet Linux driver source. (Driver module name: `ax88796c-spi.o`)
+This the official ASIX **AX88796C SPI Fast Ethernet Linux driver** (module name: `ax88796c-spi.o`), which is suitable for embedded systems, smart home/office devices, Ethernet hubs, switches, routers and home gateway applications.
 
 ---
 ## ASIX SPI/Non-PCI Fast Ethernet ICs 
